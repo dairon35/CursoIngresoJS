@@ -14,6 +14,6 @@ function mostrarAumento()
 
 	operacion=(IngreseSueldo * 0.10);
 	resultadofinal=(IngreseSueldo + operacion);
-	document.getElementById('resultado').value=resultadofinal;
+	document.getElementByIds('resultado').value=resultadofinal;
 	
 }
