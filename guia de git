@@ -1,4 +1,4 @@
 git clone repo 
 git add .
 git commit -m "guia de git"  guarda lo que cree
-git push
+git push este comando actualiza en el repositorio web
