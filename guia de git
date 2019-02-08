@@ -1,0 +1,4 @@
+git clone repo 
+git add .
+git commit -m "guia de git"  guarda lo que cree
+git push
