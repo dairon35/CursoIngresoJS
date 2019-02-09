@@ -6,14 +6,16 @@ function mostrarAumento()
 {
 	var IngreseSueldo
 	var operacion
-	var resultadofinal
+	var resultadoFinal
 
 	IngreseSueldo=sueldo.value;
 
 	IngreseSueldo=parseInt(IngreseSueldo);
 
 	operacion=(IngreseSueldo * 0.10);
-	resultadofinal=(IngreseSueldo + operacion);
-	document.getElementByIds('resultado').value=resultadofinal;
+
+	resultadoFinal=(IngreseSueldo + operacion);
+
+	document.getElementById('resultado').value=resultadoFinal;
 	
 }

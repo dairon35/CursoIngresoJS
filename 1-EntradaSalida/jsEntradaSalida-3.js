@@ -5,8 +5,11 @@ function mostrar()
 	//elNombre.value= "dairon";
 	// IMPOSIBLE "NOMBRE"=elNombre.value;
 	var nombre;
-	nombre= elNombre.value;
-	nombre= document.getElementById('elNombre');
+
+	//nombre= elNombre.value;
+
+	nombre= document.getElementById('elNombre').value;
+
 	alert(nombre);
 }
 

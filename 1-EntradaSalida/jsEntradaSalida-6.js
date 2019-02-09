@@ -5,14 +5,28 @@ function sumar()
 {
 	var PrimerNumero;
 	var SegundoNumero;
+	var suma;
 
-	PrimerNumero=numeroUno.value;
-	SegundoNumero=numeroDos.value;
+	PrimerNumero = document.getElementById('numeroUno').value;
+	SegundoNumero = document.getElementById('numeroDos').value;
 
-	PrimerNumero=parseInt(PrimerNumero);
-	SegundoNumero=parseInt(SegundoNumero);
+	/* PrimerNumero=numeroUno.value;
+	//SegundoNumero=numeroDos.value;
+
+	//PrimerNumero=parseInt(PrimerNumero);
+	//SegundoNumero=parseInt(SegundoNumero);
+		
+		DE ESTA FORMA LA REALIZAMOS CON OCTAVIO VILLEGAS
+	*/
 	
-	alert(PrimerNumero + SegundoNumero);
+	PrimerNumero = parseInt(PrimerNumero);
+	SegundoNumero = parseInt(SegundoNumero);
+
+	suma = PrimerNumero + SegundoNumero;
+
+	//alert(PrimerNumero + SegundoNumero);
+
+	alert("la suma es de: "+suma);
 
 }
 
