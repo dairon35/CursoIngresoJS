@@ -37,7 +37,7 @@ function mostrar()
 }
 
 
-
+}
 
 
 
@@ -73,4 +73,4 @@ function mostrar()
 
 	
 
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
