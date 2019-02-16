@@ -2,3 +2,10 @@ git clone repo
 git add .
 git commit -m "guia de git"  guarda lo que cree
 git push este comando actualiza en el repositorio web
+
+
+https://www.w3schools.com/ AQUI HAY MUCHA INFORMACION IMPORTANTE PARA JAVASCRIPT
+
+|| ----logicamente (esto O esto)
+&& ----logicamente (esto y esto)
+!= ----logicamente (NO ES igual)
