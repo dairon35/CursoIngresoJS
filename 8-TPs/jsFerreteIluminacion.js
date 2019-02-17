@@ -78,7 +78,7 @@ function CalcularPrecio ()
   	if (total >	120)
   	{
   		IIBB= total * 0.10;
-  		total= total * 0.10;
+  		total= (total * 0.10) + total;
 
   		alert("usted pago: "+IIBB+ " de Ingresos Brutos");
   	}
