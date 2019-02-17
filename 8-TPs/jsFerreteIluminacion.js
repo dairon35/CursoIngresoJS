@@ -9,6 +9,138 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 
  */
 function CalcularPrecio () 
-{
- 	
+
+ {
+ 	var lamparas;Cantidad
+ 	var marca;
+ 	var IIBB;
+ 	var total;
+ 	var valorBruto;
+
+ 	lamparas=document.getElementById('Cantidad').value;
+
+ 	lamparas=parseInt(lamparas);
+
+ 	marca=document.getElementById('Marca').value;
+
+
+ 	if (lamparas>=6) {
+
+ 		total=lamparas * 35 * 0.50;
+ 	}
+
+ else if (lamparas==5)
+ 	{
+ 		if (marca=="ArgentinaLuz")
+
+ 		{
+ 			total=lamparas * 35 * 0.60;
+ 		}
+
+ 		else
+ 		{
+ 			total=lamparas *35 * 0.70;
+ 		}
+ 	}
+ else if (lamparas==4) 
+    {
+    	{
+    		if (marca =="ArgentinaLuz" || marca =="FelipeLamparas") 
+    		{
+    			total = lamparas * 35 * 0.75;
+    		}
+    		else
+    		{
+    			total=lamparas * 35 * 0.80;
+    		}
+    	}
+    }
+  else if (lamparas ==3) 
+  	{
+  		if (marca=="ArgentinaLuz")
+  		{
+  			total=lamparas * 35 * 0.85;
+  		}
+
+  		else if (lamparas==3)
+  		{
+  			if (marca=="FelipeLamparas")
+  			{
+  				total= lamparas * 35 * 0.90;
+  			}
+  			else
+  			{
+  				total=lamparas * 35 * 0.95;
+  			}
+  		}
+  	}
+
+  	if (total >	120)
+  	{
+  		IIBB= total * 0.10;
+  		total= total * 0.10;
+
+  		alert("usted pago: "+IIBB+ " de Ingresos Brutos");
+  	}
+ 		document.getElementById('precioDescuento').value=total
 }
+ 	
+ 	
+ 	/*var lamparitas;
+ 	var marca;
+ 	var total;
+ 	var iibb;
+ 	lamparitas = document.getElementById('Cantidad').value;
+ 	lamparitas = parseInt(lamparitas);
+ 	marca = document.getElementById('Marca').value
+ 	if (lamparitas >= 6)
+ 	{
+ 		total = lamparitas * 35 * 0.5;
+ 	}
+ 	else if (lamparitas == 5)
+ 	{
+ 		if (marca == "ArgentinaLuz")
+ 		{
+ 			total = lamparitas * 35 * 0.6;
+ 		}
+ 		else
+ 		{
+ 			total = lamparitas * 35 * 0.7;	
+ 		}
+ 	}
+	else if (lamparitas == 4)
+	{
+ 		if (marca == "ArgentinaLuz" || marca == "FelipeLamparas")
+ 		{
+ 			total = lamparitas * 35 * 0.75;
+ 		}
+ 		else
+ 		{
+ 			total = lamparitas * 35 * 0.8;	
+ 		}
+ 	}
+ 	else if (lamparitas == 3)
+ 	{
+ 		if (marca == "ArgentinaLuz")
+ 		{
+ 			total = lamparitas * 35 * 0.85;
+ 		}
+ 		else if (marca == "FelipeLamparas")
+ 		{
+ 			total = lamparitas * 35 * 0.9;
+ 		}
+ 		else
+ 		{
+ 			total = lamparitas * 35 * 0.95;
+ 		}
+ 	}
+ 	if (total >= 120)
+ 	{
+ 		iibb = (total * 1.10) - total;
+ 		total = total * 1.10;
+ 		alert("Usted pago "+iibb+" de IIBB")
+ 	}
+ 	document.getElementById('precioDescuento').value = total;
+
+}
+*/
