@@ -23,23 +23,23 @@ function mostrar()
 
 
 
-	//var precio;
-	//var porcentaje;
-	//var operacion;
-	//var operacion1;
+/*
+	var precio;
+	var descuento;
+	var operacion;
 
-	//precio=parseInt(precio);
-	//porcentaje=parseInt(porcentaje);
+	precio=prompt("Por favor Ingrese precio: ");
+	descuento=prompt("Por favor ingrese el porcentaje de descuento: ");
 
-	//prompt("Por favor ingrese precio: ")=precio;
-	//prompt("por favor ingrese porcentaje: ")=porcentaje;
+	precio=parseInt(precio);
+	descuento=parseInt(descuento);
 
-	//operacion=precio * porcentaje / 100;
-	//operacion1=operacion - precio;
+	operacion=precio * descuento / 100;
+	operacion1=operacion+precio;
 
-	//operacion=document.getElementById('elPrecioFina').value;
+	document.getElementById('elPrecioFinal').value=operacion1;  
 
-
+*/
 
 
 }
