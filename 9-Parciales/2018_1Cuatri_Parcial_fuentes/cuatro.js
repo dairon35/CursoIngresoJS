@@ -40,4 +40,50 @@ function mostrar()
 
 
 }
+/*
+function mostrar()
+{
 
+	var numero1;
+	var numero2;
+	var mensaje;
+
+	numero1=prompt("Por favor ingrese el primer numero: ");
+	numero2=prompt("Por favor ingrese el segundo numero: ");
+	
+
+	if (numero1 ===  numero2)
+	{
+		mensaje=numero1+numero2;
+		alert(mensaje);
+	}
+	else{
+		if (numero1>numero2) {
+
+			numero1=parseInt(numero1);
+			numero2=parseInt(numero2);
+			mensaje=numero1- numero2;
+			alert(mensaje);
+		}
+		
+	
+	else {
+			if (numero1<numero2)
+		{
+			numero1=parseInt(numero1);
+			numero2=parseInt(numero2);
+			mensaje=numero1 + numero2;
+		}
+
+			if (parseInt(mensaje)>=10)
+			{
+				alert("la suma es: "+mensaje+ " y supero los 10");
+			}
+	}
+		//alert(mensaje);
+}
+			
+
+
+}
+*/
