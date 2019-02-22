@@ -15,14 +15,29 @@ var contadorIntentos;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
-	
 
+	numeroSecreto=Math.floor(Math.random() * 100) + 1;
+
+	console.log(numeroSecreto);
+	contadorIntentos=0;
 }
 
 function verificar()
 {
 	
-	
+	var numeroIngresado;
+
+	numeroIngresado=numero.value;
+
+	contadorIntentos=contadorIntentos+1;
+
+	console.log(numeroIngresado);
+
+	if (numeroIngresado == numeroSecreto)
+	{
+		if (contadorIntentos<4)
+		{
+		alert("Es un Genio");
+		}
 
 }
